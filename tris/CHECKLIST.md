@@ -11,11 +11,11 @@ One line per requirement on the TRIS form (Technology Request Information Sheet)
 ## General — TRIS form, General section
 
 - [x] **Row 3 — Requestor.** Completed — [WORKSHEET.md](WORKSHEET.md) (shared submitter fields).
-- [ ] **Row 4 — Requestor's Manager.** Pending — input needed: your manager's name. Slot: [WORKSHEET.md](WORKSHEET.md) (shared submitter fields).
-- [ ] **Row 5 — PAT Manager.** Pending — input needed: PAT Manager name. Slot: [WORKSHEET.md](WORKSHEET.md) (shared submitter fields).
+- [x] **Row 4 — Requestor's Manager.** Completed — Josh Barter. [WORKSHEET.md](WORKSHEET.md) (shared submitter fields).
+- [x] **Row 5 — PAT Manager.** Completed — left blank deliberately (requestor ruling, 2026-11-20): the Administrator-deferral is extended to this row, as on row 6; the TRIS Administrator determines the assignment per the process document. Slot: [WORKSHEET.md](WORKSHEET.md) (shared submitter fields).
 - [ ] **Row 6 — CoE Director.** Pending — input needed: CoE Director for the accountable Agile team (if left blank, the TRIS Administrator determines the accountable team, AM, and AD per the process document). Slot: [WORKSHEET.md](WORKSHEET.md) (shared submitter fields).
 - [x] **Row 8 — Technology Name.** Completed — [WORKSHEET.md](WORKSHEET.md) (product answers).
-- [ ] **Row 9 — Technology Version.** Pending — input needed: the version to cite (the client module is unversioned in the tree; the hosted service's version is Salesforce-managed). Slot: [WORKSHEET.md](WORKSHEET.md) (product answers).
+- [ ] **Row 9 — Technology Version.** Pending — input needed: the version to cite (the module carries no release or package version (in the tree it reports an MCP clientInfo version of 0.1.0 and speaks MCP protocol 2025-06-18); the hosted service's version is Salesforce-managed). Slot: [WORKSHEET.md](WORKSHEET.md) (product answers).
 - [x] **Row 10 — Vendor Name.** Completed — Salesforce (hosted MCP servers); client module is the requestor's own code. [WORKSHEET.md](WORKSHEET.md) (product answers).
 - [ ] **Row 11 — Website.** Pending — input needed: the vendor website/product page to cite (the service endpoints are api.salesforce.com; no product page is in the package evidence). Slot: [WORKSHEET.md](WORKSHEET.md) (product answers).
 

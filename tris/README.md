@@ -12,8 +12,8 @@ This folder holds the TDS TRIS (Technology Request Information Sheet) submission
 
 ## Status
 
-- Checklist: **41 completed · 8 pending** (requestor lines; the reviewer fields, form rows 66–91, are IT's and are listed separately in the checklist).
-- The pending lines are the inputs only the requestor can supply — manager/PAT Manager/CoE Director names, the version to cite, the vendor product page, TDS-approved Salesforce tooling to name as related, Flex Credits entitlement/cost, and prior legal/procurement review of the Salesforce terms. See [CHECKLIST.md](CHECKLIST.md) for the exact list.
+- Checklist: **43 completed · 6 pending** (requestor lines; the reviewer fields, form rows 66–91, are IT's and are listed separately in the checklist).
+- The pending lines are the inputs only the requestor can supply — the CoE Director name, the version to cite, the vendor product page, TDS-approved Salesforce tooling to name as related, Flex Credits entitlement/cost, and prior legal/procurement review of the Salesforce terms. (Row 4, Requestor's Manager, is filled; row 5, PAT Manager, is left blank deliberately under the Administrator-deferral.) See [CHECKLIST.md](CHECKLIST.md) for the exact list.
 - The module is built and validated; org-side activation (External Client App, server activation, Flex Credits) is **not** done — the submission asks for the pattern to be reviewed before activation.
 - Submission status: **DRAFT — prepared, not yet submitted.** After TRIS approval, a Procurement Engagement Request (PER) follows.
 

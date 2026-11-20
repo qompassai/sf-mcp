@@ -8,13 +8,13 @@ This is one product's slice of the combined six-product submission worksheet pre
 
 - Requestor (3): Matt A. Porter — Field Service Technician (FST), matthew.porter@tdstelecom.com
 - Requestor's Manager (4): Josh Barter
-- PAT Manager (5): [INPUT NEEDED: PAT Manager name — note: the process document names an Internal Employee Tools PAT contact as the AIR-access contact; that is not evidence he is the PAT Manager for this request]
+- PAT Manager (5):
 - CoE Director (6): [INPUT NEEDED: CoE Director for the accountable Agile team — if left blank, the TRIS Administrator determines the accountable team, AM, and AD per the process document]
 
 ## Product answers
 
 - Technology Name (8): Salesforce Hosted MCP integration — Neovim (diver) client module `salesforce/mcp.lua`, connecting to Salesforce's Hosted MCP servers.
-- Technology Version (9): [INPUT NEEDED: version to cite — the client module is unversioned in the tree, and the hosted service's version is Salesforce-managed]
+- Technology Version (9): [INPUT NEEDED: version to cite — the module carries no release or package version (in the tree it reports an MCP clientInfo version of 0.1.0 and speaks MCP protocol 2025-06-18), and the hosted service's version is Salesforce-managed]
 - Vendor Name (10): Salesforce (hosted MCP servers). The client module is the requestor's own code (Qompass AI).
 - Website (11): [INPUT NEEDED: vendor website/product page to cite — the service endpoints are api.salesforce.com; no product page is in the package evidence]
 - Description (14): A streamable-HTTP MCP client module in the Neovim editor (Tiger Style Lua) for Salesforce's Hosted MCP servers (record reads/writes, flows, invocable actions, Data 360 analytics). OAuth 2.0 + PKCE through an External Client App with the `mcp_api` scope; every tool call runs as the signed-in user under Salesforce's field-level security and sharing rules; the module prompts for confirmation before executing any call and never logs tokens.
